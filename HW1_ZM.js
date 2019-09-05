@@ -14,9 +14,13 @@ console.log(Name + RandNames[random]);
 return Name + RandNames[random];
 }
 
-var name = prompt("please enter your name");
+
+function HandlePress(){
+var name = document.getElementById("fname").value;
 
 document.getElementById("nameGen").innerHTML = "Your Nickname is: " + RandomName(name);
+}
+
 
 //Links to resources used
 /*
